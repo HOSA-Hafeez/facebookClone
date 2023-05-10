@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #f0f2f5;
+    font-family: cursive
+}
+section{
+    
+}
+.main{
+    display: flex;
+    grid-template-columns: auto auto;
+    position: relative;
+    margin: 100px 0;
+    justify-content: center;
+    /* align-items: center; */
+    /* padding-left: 100px;
+    padding-right: 150px; */
+    
+    
+}
+.heading{
+    /* width: 65vw; */
+    padding-left: 100px;
+    position: relative;
+    top: 50px;
+}
+.heading h1{
+    color: #1877f2;
+    font-size: 60px;
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+.heading p{
+    color: #000;
+    font-size: 30px;
+    
+}
+.form{
+    position: relative;
+    /* width: 35vw; */
+    padding-right: 150px;
+    
+}
+form{
+    text-align: center;
+    background-color: white;
+    padding: 20px 10px 20px 10px;
+    border-radius: 10px;
+    
+}
+form input{
+    width: 90%;
+    height: 50px;
+    font-size: 18px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.login{
+    width: 95%;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+p a{
+    text-decoration: none;
+    color: #136adc;
+    font-size: 18px;
+    font-family: inherit;
+}
+form p {
+    margin-bottom: 20px;
+}
+.new-acc a{
+    text-decoration: none;
+    color: white;
+}
+.new-acc{
+    height: 40px;
+    font-size: 20px;
+    background-color: #42b72a;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+    padding: 0 10px 0 10px;
+}
+hr{
+    border: 1px dashed;
+}
+.text{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 18px;
+}
+@media only screen and (max-width:900px){
+    .main{
+        flex-direction: column;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .heading{
+        /* width: 60%; */
+        margin: auto;
+        text-align: center;
+        padding-left: 0px;
+        margin-bottom: 50px;
+        position: static;
+    }
+    .heading h1{
+        text-align: center;
+    }
+    .heading p{
+        text-align: center;
+        width: 50%;
+        margin: auto;
+    }
+    .form{
+        padding-left:150px;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width:600px){
+    .form{
+        width: 100%;
+        padding: 0;
+    }
+}
+
